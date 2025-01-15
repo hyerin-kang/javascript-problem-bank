@@ -7,6 +7,9 @@
  */
 
 function reassignConst() {
+  const x = 20;
+  x = 10;
+  console.log(x);
   // TODO
 }
 
