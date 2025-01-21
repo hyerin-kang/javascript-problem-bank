@@ -10,6 +10,11 @@
  */
 
 function introduce(name, age) {
+  if (!age) {
+    return `안녕하세요! 저는 ${name}, 나이는 비공개입니다.`;
+  } else {
+    return `안녕하세요! 저는 ${name}, 나이는 ${age}입니다.`;
+  }
   // TODO
 }
 
