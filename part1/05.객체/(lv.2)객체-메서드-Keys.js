@@ -10,6 +10,7 @@
  */
 function getObjectKeys(obj) {
   // TODO
+  Object.keys(obj);
 }
 
 // export를 수정하지 마세요.
