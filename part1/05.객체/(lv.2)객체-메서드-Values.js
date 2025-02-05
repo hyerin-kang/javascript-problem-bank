@@ -11,7 +11,7 @@
  */
 function getObjectValues(obj) {
   // TODO
-  Object.values(obj);
+  return Object.values(obj);
 }
 
 // export를 수정하지 마세요.

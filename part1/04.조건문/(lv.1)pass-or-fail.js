@@ -11,7 +11,7 @@
 
 // TODO: passOrFail 함수를 작성하세요.
 function passOrFail(score) {
-  if (score > 60) {
+  if (score >= 60) {
     return "Pass";
   } else {
     return "Fail";
